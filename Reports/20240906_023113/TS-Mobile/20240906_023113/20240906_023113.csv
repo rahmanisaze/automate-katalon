@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Mobile,,,,2024-09-06 02:31:20,2024-09-06 02:33:20,2m - 0.362s,PASSED
+,,,,,,,
+Test Cases/Mobile/GagalSaveEmptyTaskContent,,,,2024-09-06 02:31:20,2024-09-06 02:32:07,46.348s,PASSED
+"startApplication(""C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk"", true)",,,,2024-09-06 02:31:21,2024-09-06 02:31:58,36.353s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/addTask""), 20)",,,,2024-09-06 02:31:58,2024-09-06 02:32:00,2.041s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/fieldTitle""), ""testTitle"", 20)",,,,2024-09-06 02:32:00,2024-09-06 02:32:01,1.816s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/btSave""), 20)",,,,2024-09-06 02:32:01,2024-09-06 02:32:02,0.909s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Mobile/errorMessageTaskContent""), 10)",,,,2024-09-06 02:32:02,2024-09-06 02:32:04,1.370s,PASSED
+closeApplication(),,,,2024-09-06 02:32:04,2024-09-06 02:32:07,3.079s,PASSED
+,,,,,,,
+Test Cases/Mobile/GagalSaveEmptyTitle,,,,2024-09-06 02:32:07,2024-09-06 02:32:44,36.951s,PASSED
+"startApplication(""C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk"", true)",,,,2024-09-06 02:32:07,2024-09-06 02:32:35,27.454s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/addTask""), 20)",,,,2024-09-06 02:32:35,2024-09-06 02:32:36,1.474s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/fieldTaskContent (1)""), ""testTaskContent"", 20)",,,,2024-09-06 02:32:36,2024-09-06 02:32:39,2.278s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/btSave""), 20)",,,,2024-09-06 02:32:39,2024-09-06 02:32:40,0.946s,PASSED
+"verifyElementExist(findTestObject(""Object Repository/Mobile/errorMessageTitleEmpty""), 10)",,,,2024-09-06 02:32:40,2024-09-06 02:32:41,1.431s,PASSED
+closeApplication(),,,,2024-09-06 02:32:41,2024-09-06 02:32:44,2.800s,PASSED
+,,,,,,,
+Test Cases/Mobile/SuccessAddTask,,,,2024-09-06 02:32:44,2024-09-06 02:33:20,36.352s,PASSED
+"startApplication(""C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk"", true)",,,,2024-09-06 02:32:44,2024-09-06 02:33:11,26.723s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/addTask""), 20)",,,,2024-09-06 02:33:11,2024-09-06 02:33:13,1.542s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/fieldTitle""), ""testTitle"", 20)",,,,2024-09-06 02:33:13,2024-09-06 02:33:15,1.935s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/fieldTaskContent (1)""), ""testTaskContent"", 20)",,,,2024-09-06 02:33:15,2024-09-06 02:33:17,1.909s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/btSave""), 20)",,,,2024-09-06 02:33:17,2024-09-06 02:33:17,0.929s,PASSED
+closeApplication(),,,,2024-09-06 02:33:17,2024-09-06 02:33:20,2.714s,PASSED

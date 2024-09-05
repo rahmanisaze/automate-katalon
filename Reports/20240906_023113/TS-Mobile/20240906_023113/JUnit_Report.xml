@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-Mobile" time="120.362" tests="3" failures="0" errors="0">
+   <testsuite name="TS-Mobile" tests="3" failures="0" errors="0" time="120.362" skipped="0" timestamp="2024-09-06 02:31:20" hostname="USER - LAPTOP-RBDGH2Q5" id="Test Suites/TS-Mobile">
+      <properties>
+         <property name="deviceName" value="Xiaomi 23053RN02A (Android 14)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\Katalon Studio\\automate-katalon\\Reports\\20240906_023113\\TS-Mobile\\20240906_023113"/>
+         <property name="logFiles" value="C:\\Users\\USER\\Katalon Studio\\automate-katalon\\Reports\\20240906_023113\\TS-Mobile\\20240906_023113\\appium.log, C:\\Users\\USER\\Katalon Studio\\automate-katalon\\Reports\\20240906_023113\\TS-Mobile\\20240906_023113\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - LAPTOP-RBDGH2Q5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="23053RN02A"/>
+         <property name="hostAddress" value="192.168.1.138"/>
+         <property name="deviceManufacturer" value="Xiaomi"/>
+         <property name="deviceId" value="eb8228f47d73"/>
+         <property name="deviceName" value="Xiaomi 23053RN02A (Android 14)"/>
+         <property name="deviceOSVersion" value="14"/>
+      </properties>
+      <testcase name="Test Cases/Mobile/GagalSaveEmptyTaskContent" time="46.348" classname="Test Cases/Mobile/GagalSaveEmptyTaskContent" status="PASSED">
+         <system-out><![CDATA[2024-09-06 02:31:20 - [TEST_CASE][PASSED] - Test Cases/Mobile/GagalSaveEmptyTaskContent: Test Cases/Mobile/GagalSaveEmptyTaskContent
+
+2024-09-06 02:31:21 - [TEST_STEP][PASSED] - startApplication("C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk", true): Started app at: 'C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk'
+
+2024-09-06 02:31:23 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-09-06 02:31:26 - [MESSAGE][INFO] - Appium server started on port 53,201
+
+2024-09-06 02:31:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk'
+
+2024-09-06 02:31:58 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/addTask"), 20): Tapped on element 'Object Repository/Mobile/addTask'
+
+2024-09-06 02:32:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/addTask'
+
+2024-09-06 02:32:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/fieldTitle"), "testTitle", 20): Text 'testTitle' has been set to element 'Object Repository/Mobile/fieldTitle'
+
+2024-09-06 02:32:01 - [MESSAGE][PASSED] - Text 'testTitle' has been set to element 'Object Repository/Mobile/fieldTitle'
+
+2024-09-06 02:32:01 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/btSave"), 20): Tapped on element 'Object Repository/Mobile/btSave'
+
+2024-09-06 02:32:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/btSave'
+
+2024-09-06 02:32:02 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Mobile/errorMessageTaskContent"), 10): Element 'Object Repository/Mobile/errorMessageTaskContent' is exist
+
+2024-09-06 02:32:04 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/errorMessageTaskContent' is exist
+
+2024-09-06 02:32:04 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-09-06 02:32:07 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/GagalSaveEmptyTitle" time="36.951" classname="Test Cases/Mobile/GagalSaveEmptyTitle" status="PASSED">
+         <system-out><![CDATA[2024-09-06 02:32:07 - [TEST_CASE][PASSED] - Test Cases/Mobile/GagalSaveEmptyTitle: Test Cases/Mobile/GagalSaveEmptyTitle
+
+2024-09-06 02:32:07 - [TEST_STEP][PASSED] - startApplication("C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk", true): Started app at: 'C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk'
+
+2024-09-06 02:32:08 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-09-06 02:32:11 - [MESSAGE][INFO] - Appium server started on port 53,410
+
+2024-09-06 02:32:35 - [MESSAGE][PASSED] - Started app at: 'C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk'
+
+2024-09-06 02:32:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/addTask"), 20): Tapped on element 'Object Repository/Mobile/addTask'
+
+2024-09-06 02:32:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/addTask'
+
+2024-09-06 02:32:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/fieldTaskContent (1)"), "testTaskContent", 20): Text 'testTaskContent' has been set to element 'Object Repository/Mobile/fieldTaskContent (1)'
+
+2024-09-06 02:32:39 - [MESSAGE][PASSED] - Text 'testTaskContent' has been set to element 'Object Repository/Mobile/fieldTaskContent (1)'
+
+2024-09-06 02:32:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/btSave"), 20): Tapped on element 'Object Repository/Mobile/btSave'
+
+2024-09-06 02:32:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/btSave'
+
+2024-09-06 02:32:40 - [TEST_STEP][PASSED] - verifyElementExist(findTestObject("Object Repository/Mobile/errorMessageTitleEmpty"), 10): Element 'Object Repository/Mobile/errorMessageTitleEmpty' is exist
+
+2024-09-06 02:32:41 - [MESSAGE][PASSED] - Element 'Object Repository/Mobile/errorMessageTitleEmpty' is exist
+
+2024-09-06 02:32:41 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-09-06 02:32:44 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Mobile/SuccessAddTask" time="36.352" classname="Test Cases/Mobile/SuccessAddTask" status="PASSED">
+         <system-out><![CDATA[2024-09-06 02:32:44 - [TEST_CASE][PASSED] - Test Cases/Mobile/SuccessAddTask: Test Cases/Mobile/SuccessAddTask
+
+2024-09-06 02:32:44 - [TEST_STEP][PASSED] - startApplication("C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk", true): Started app at: 'C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk'
+
+2024-09-06 02:32:45 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2024-09-06 02:32:48 - [MESSAGE][INFO] - Appium server started on port 53,614
+
+2024-09-06 02:33:11 - [MESSAGE][PASSED] - Started app at: 'C:\Users\USER\Downloads\com.yoesuv.androidroom-v1(2.1.6)-production-release.apk'
+
+2024-09-06 02:33:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/addTask"), 20): Tapped on element 'Object Repository/Mobile/addTask'
+
+2024-09-06 02:33:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/addTask'
+
+2024-09-06 02:33:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/fieldTitle"), "testTitle", 20): Text 'testTitle' has been set to element 'Object Repository/Mobile/fieldTitle'
+
+2024-09-06 02:33:15 - [MESSAGE][PASSED] - Text 'testTitle' has been set to element 'Object Repository/Mobile/fieldTitle'
+
+2024-09-06 02:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/fieldTaskContent (1)"), "testTaskContent", 20): Text 'testTaskContent' has been set to element 'Object Repository/Mobile/fieldTaskContent (1)'
+
+2024-09-06 02:33:16 - [MESSAGE][PASSED] - Text 'testTaskContent' has been set to element 'Object Repository/Mobile/fieldTaskContent (1)'
+
+2024-09-06 02:33:17 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/btSave"), 20): Tapped on element 'Object Repository/Mobile/btSave'
+
+2024-09-06 02:33:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/btSave'
+
+2024-09-06 02:33:17 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2024-09-06 02:33:20 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-06 02:31:20 - [TEST_SUITE][PASSED] - TS-Mobile: Test Cases/Mobile/SuccessAddTask]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
