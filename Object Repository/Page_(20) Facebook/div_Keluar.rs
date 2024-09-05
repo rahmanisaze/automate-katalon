@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Keluar</name>
+   <tag></tag>
+   <elementGuidId>17b9975d-a938-425d-8a7e-6b566f1944cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mount_0_0_dp']/div/div/div/div/div[2]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[5]/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0d4e153e-f6d3-4e23-a47f-351ea8b61382</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>x1qjc9v5 x1q0q8m5 x1qhh985 xu3j5b3 xcfux6l x26u7qi xm0m39n x13fuv20 x972fbf x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x1qughib xat24cr x11i5rnm x1mh8g0r xdj266r x2lwn1j xeuugli xz9dl7a xsag5q8 x4uap5 xkhd6sd x1n2onr6 x1ja2u2z</value>
+      <webElementGuid>ed3197d6-2a77-422b-90e6-84b379afae87</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Keluar</value>
+      <webElementGuid>778f25e5-18ec-4e88-a449-9e732c46803e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mount_0_0_dp&quot;)/div[1]/div[@class=&quot;html-div xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x17hbii1 x1kd72b6 x13ywhbb xahrfoy x78zum5 xdt5ytf x1iyjqo2&quot;]/div[1]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z&quot;]/div[2]/div[@class=&quot;xds687c x1pi30zi x1e558r4 xixxii4 x13vifvy xzkaem6&quot;]/div[2]/div[1]/div[@class=&quot;__fb-light-mode x17hbii1 x1kd72b6 x13ywhbb xahrfoy&quot;]/div[@class=&quot;xu96u03 xm80bdy x10l6tqk x13vifvy&quot;]/div[@class=&quot;x1uvtmcs x4k7w5x x1h91t0o x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1n2onr6 x1qrby5j x1jfb8zj&quot;]/div[1]/div[@class=&quot;x1ok221b&quot;]/div[@class=&quot;html-div xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6&quot;]/div[@class=&quot;x1jx94hy xwtykhg xl6askr x1sa2p9j x8s7dd x1qpq9i9 xdney7k xu5ydu1 xt3gfkd x18runqf x1cur4ig xgfcmlh x1rjs6j1 x4ruge8 x9h15zd x8ro2h5 x1x16y7e x8ii3r7 x9f619 x6ikm8r x10wlt62 x1j9u4d2&quot;]/div[@class=&quot;html-div xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd&quot;]/div[@class=&quot;x2atdfe xb57i2i x1q594ok x5lxg6s x78zum5 xdt5ytf x1n2onr6 x1ja2u2z xw2csxc x7p5m3t x1odjw0f x1e4zzel x1n3te05 xvv7f4i x1cvmir6&quot;]/div[@class=&quot;x78zum5 xdt5ytf x1iyjqo2 x1n2onr6&quot;]/div[1]/div[@class=&quot;xt7dq6l x1a2a7pz x6ikm8r x10wlt62 x1n2onr6 x14atkfc&quot;]/div[@class=&quot;x9f619 x1ja2u2z x1k90msu x6o7n8i x1qfuztq x17qophe x10l6tqk x13vifvy x1hc1fzr x71s49j xh8yej3&quot;]/div[@class=&quot;x1n2onr6 x1ja2u2z x9f619 x78zum5 xdt5ytf x193iq5w x1l7klhg x1iyjqo2 xs83m0k x2lwn1j x1y1aw1k&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x1iyjqo2 x2lwn1j x1qughib&quot;]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z x78zum5 xdt5ytf x2lah0s x193iq5w&quot;]/div[@class=&quot;x1iorvi4 x4uap5 xwib8y2 xkhd6sd&quot;]/div[@class=&quot;html-div x11i5rnm x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x1oo3vh0 x1rdy4ex&quot;]/div[5]/div[@class=&quot;x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 x2lah0s xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli xexx8yu x4uap5 x18d9i69 xkhd6sd x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x1q0g3np x87ps6o x1lku1pv x1a2a7pz x1lq5wgf xgqcy7u x30kzoy x9jhf4c x1lliihq&quot;]/div[@class=&quot;x6s0dn4 x1q0q8m5 x1qhh985 xu3j5b3 xcfux6l x26u7qi xm0m39n x13fuv20 x972fbf x9f619 x78zum5 x1q0g3np x1iyjqo2 xs83m0k x1qughib xat24cr x11i5rnm x1mh8g0r xdj266r xeuugli x18d9i69 x1sxyh0 xurb0ha xexx8yu x1n2onr6 x1ja2u2z x1gg8mnh&quot;]/div[@class=&quot;x6s0dn4 xkh2ocl x1q0q8m5 x1qhh985 xu3j5b3 xcfux6l x26u7qi xm0m39n x13fuv20 x972fbf x9f619 x78zum5 x1q0g3np x1iyjqo2 xs83m0k x1qughib xat24cr x11i5rnm x1mh8g0r xdj266r x2lwn1j xeuugli x18d9i69 x4uap5 xkhd6sd xexx8yu x1n2onr6 x1ja2u2z&quot;]/div[@class=&quot;x1qjc9v5 x1q0q8m5 x1qhh985 xu3j5b3 xcfux6l x26u7qi xm0m39n x13fuv20 x972fbf x9f619 x78zum5 x1r8uery xdt5ytf x1iyjqo2 xs83m0k x1qughib xat24cr x11i5rnm x1mh8g0r xdj266r x2lwn1j xeuugli xz9dl7a xsag5q8 x4uap5 xkhd6sd x1n2onr6 x1ja2u2z&quot;]</value>
+      <webElementGuid>99f69c02-78e1-4166-b104-61810e1c59d8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mount_0_0_dp']/div/div/div/div/div[2]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[5]/div/div/div[2]/div</value>
+      <webElementGuid>b2de8452-34fc-4f8c-9782-e933946a3127</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beri masukan'])[1]/following::div[8]</value>
+      <webElementGuid>e43f8d36-b4da-4a17-b56f-6f67381cbf43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tampilan &amp; aksesibilitas'])[1]/following::div[22]</value>
+      <webElementGuid>5596a56b-9730-405c-a221-d74c553d69a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[2]/div</value>
+      <webElementGuid>636b9582-e226-4163-8226-98b94b1c2a00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Keluar' or . = 'Keluar')]</value>
+      <webElementGuid>609d9327-4df3-4ca5-b417-71d0750a60af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

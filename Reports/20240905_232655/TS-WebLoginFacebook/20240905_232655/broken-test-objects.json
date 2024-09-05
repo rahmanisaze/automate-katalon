@@ -5,30 +5,10 @@
       "testObjectId": "Object Repository/Page_Facebook  log in or sign up/button_Log in",
       "brokenLocator": "//button[@id\u003d\u0027u_0_5_8V\u0027]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Facebook helps you connect and share with the people in your life.\u0027])[1]/following::button[1]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook  log in or sign up/button_Log in_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_Facebook  log in or sign up/button_Log in",
-      "brokenLocator": "//button[@id\u003d\u0027u_0_5_8V\u0027]",
-      "brokenLocatorMethod": "XPATH",
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Forgotten password?\u0027])[1]/preceding::button[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Facebook  log in or sign up/button_Log in_neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_(20) Facebook/g",
-      "brokenLocator": "",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "svg.x3ajldb \u003e g",
-      "proposedLocatorMethod": "CSS",
-      "recoveryMethod": "CSS",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_(20) Facebook/g_CSS.png"
+      "pathToScreenshot": "Reports/20240905_232655/TS-WebLoginFacebook/20240905_232655/Object Repository/Page_Facebook  log in or sign up/button_Log in_neighbor.png"
     },
     {
       "approved": true,
@@ -38,7 +18,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Menu Facebook\u0027])[1]/preceding::span[1]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_(20) Facebook/menuFacebook_neighbor.png"
+      "pathToScreenshot": "Reports/20240905_232655/TS-WebLoginFacebook/20240905_232655/Object Repository/Page_(20) Facebook/menuFacebook_neighbor.png"
     },
     {
       "approved": true,
@@ -48,7 +28,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Beri masukan\u0027])[1]/following::div[8]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_(20) Facebook/div_Keluar_neighbor.png"
+      "pathToScreenshot": "Reports/20240905_232655/TS-WebLoginFacebook/20240905_232655/Object Repository/Page_(20) Facebook/div_Keluar_neighbor.png"
     }
   ]
 }

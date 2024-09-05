@@ -1,0 +1,123 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-WebLoginFacebook,Firefox 129.0,,,2024-09-05 23:27:03,2024-09-05 23:35:20,8m - 17.294s,PASSED
+,,,,,,,
+Test Cases/Web Facebook/LoginInvalidEmailOrPassword,Firefox 129.0,,,2024-09-05 23:27:04,2024-09-05 23:28:02,58.867s,PASSED
+"openBrowser("""")",Firefox 129.0,,,2024-09-05 23:27:05,2024-09-05 23:27:21,15.865s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Firefox 129.0,,,2024-09-05 23:27:21,2024-09-05 23:27:23,2.586s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), email)",Firefox 129.0,,,2024-09-05 23:27:23,2024-09-05 23:27:25,1.447s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:27:25,2024-09-05 23:27:25,0.666s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:27:25,2024-09-05 23:27:59,33.335s,PASSED
+failedLogin = getUrl(),Firefox 129.0,,,2024-09-05 23:27:59,2024-09-05 23:27:59,0.047s,PASSED
+"errorMessage = getText(findTestObject(""Object Repository/Page_1725545881244/errorMessage""))",Firefox 129.0,,,2024-09-05 23:27:59,2024-09-05 23:27:59,0.497s,PASSED
+"borderColor = getCSSValue(findTestObject(""Object Repository/Page_1725545881244/borderEmail""), ""border-bottom-color"")",Firefox 129.0,,,2024-09-05 23:27:59,2024-09-05 23:28:00,0.411s,PASSED
+"checkBorderColor = verifyEqual(borderColor, ""rgb(240, 40, 73)"")",Firefox 129.0,,,2024-09-05 23:28:00,2024-09-05 23:28:00,0.059s,PASSED
+println(borderColor),Firefox 129.0,,,2024-09-05 23:28:00,2024-09-05 23:28:00,0.014s,PASSED
+println(checkBorderColor),Firefox 129.0,,,2024-09-05 23:28:00,2024-09-05 23:28:00,0.002s,PASSED
+println(failedLogin),Firefox 129.0,,,2024-09-05 23:28:00,2024-09-05 23:28:00,0.002s,PASSED
+println(errorMessage),Firefox 129.0,,,2024-09-05 23:28:00,2024-09-05 23:28:00,0.002s,PASSED
+"if (checkBorderColor == ""true"" && failedLogin.contains(""https://www.facebook.com/login/?privacy_mutation_token="") && errorMessage == ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Firefox 129.0,,,2024-09-05 23:28:00,2024-09-05 23:28:02,2.753s,PASSED
+,,,,,,,
+Test Cases/Web Facebook/LoginInvalidTigaKaliAtauLebih,Firefox 129.0,,,2024-09-05 23:28:02,2024-09-05 23:30:39,2m - 36.405s,PASSED
+"openBrowser("""")",Firefox 129.0,,,2024-09-05 23:28:03,2024-09-05 23:28:12,8.452s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Firefox 129.0,,,2024-09-05 23:28:12,2024-09-05 23:28:14,2.664s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), email)",Firefox 129.0,,,2024-09-05 23:28:14,2024-09-05 23:28:16,1.021s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:28:16,2024-09-05 23:28:16,0.712s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:28:16,2024-09-05 23:28:49,33.258s,PASSED
+failedLogin = getUrl(),Firefox 129.0,,,2024-09-05 23:28:49,2024-09-05 23:28:49,0.018s,PASSED
+"errorMessage = getText(findTestObject(""Object Repository/Page_1725545881244/errorMessage""))",Firefox 129.0,,,2024-09-05 23:28:49,2024-09-05 23:28:50,0.405s,PASSED
+"borderColor = getCSSValue(findTestObject(""Object Repository/Page_1725545881244/borderEmail""), ""border-bottom-color"")",Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:50,0.392s,PASSED
+"checkBorderColor = verifyEqual(borderColor, ""rgb(240, 40, 73)"")",Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:50,0.005s,PASSED
+println(borderColor),Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:50,0.002s,PASSED
+println(checkBorderColor),Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:50,0.001s,PASSED
+println(failedLogin),Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:50,0.000s,PASSED
+println(errorMessage),Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:50,0.000s,PASSED
+"if (checkBorderColor == ""true"" && failedLogin.contains(""https://www.facebook.com/login/?privacy_mutation_token="") && errorMessage == ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:50,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), email)",Firefox 129.0,,,2024-09-05 23:28:50,2024-09-05 23:28:51,0.826s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:28:51,2024-09-05 23:28:52,0.543s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:28:52,2024-09-05 23:29:25,33.016s,PASSED
+failedLogin2 = getUrl(),Firefox 129.0,,,2024-09-05 23:29:25,2024-09-05 23:29:25,0.020s,PASSED
+"errorMessage2 = getText(findTestObject(""Object Repository/Page_1725545881244/errorMessage""))",Firefox 129.0,,,2024-09-05 23:29:25,2024-09-05 23:29:25,0.423s,PASSED
+"borderColor2 = getCSSValue(findTestObject(""Object Repository/Page_1725545881244/borderEmail""), ""border-bottom-color"")",Firefox 129.0,,,2024-09-05 23:29:25,2024-09-05 23:29:26,0.370s,PASSED
+"checkBorderColor2 = verifyEqual(borderColor, ""rgb(240, 40, 73)"")",Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:26,0.003s,PASSED
+println(borderColor2),Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:26,0.001s,PASSED
+println(checkBorderColor2),Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:26,0.001s,PASSED
+println(failedLogin2),Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:26,0.002s,PASSED
+println(errorMessage2),Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:26,0.001s,PASSED
+"if (checkBorderColor2 == ""true"" && failedLogin2.contains(""https://www.facebook.com/login/device-based/regular/login/?login_attempt="") && errorMessage2 == ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:26,0.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), email)",Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:26,0.821s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:29:26,2024-09-05 23:29:27,0.473s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:29:27,2024-09-05 23:30:01,34.007s,PASSED
+failedLogin3 = getUrl(),Firefox 129.0,,,2024-09-05 23:30:01,2024-09-05 23:30:01,0.017s,PASSED
+"errorMessage3 = getText(findTestObject(""Object Repository/Page_1725545881244/errorMessage""))",Firefox 129.0,,,2024-09-05 23:30:01,2024-09-05 23:30:02,0.748s,PASSED
+"borderColor3 = getCSSValue(findTestObject(""Object Repository/Page_1725545881244/borderEmail""), ""border-bottom-color"")",Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:02,0.525s,PASSED
+"checkBorderColor3 = verifyEqual(borderColor, ""rgb(240, 40, 73)"")",Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:02,0.003s,PASSED
+println(borderColor3),Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:02,0.000s,PASSED
+println(checkBorderColor3),Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:02,0.002s,PASSED
+println(failedLogin3),Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:02,0.001s,PASSED
+println(errorMessage3),Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:02,0.001s,PASSED
+"if (checkBorderColor3 == ""true"" && failedLogin3.contains(""https://www.facebook.com/login/device-based/regular/login/?login_attempt="") && errorMessage3 == ""The email address or mobile number you entered isn't connected to an account. Create a new Facebook account."")",Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:02,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), email)",Firefox 129.0,,,2024-09-05 23:30:02,2024-09-05 23:30:03,0.711s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:30:03,2024-09-05 23:30:03,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:30:03,2024-09-05 23:30:36,32.839s,PASSED
+failedLogin4 = getUrl(),Firefox 129.0,,,2024-09-05 23:30:36,2024-09-05 23:30:36,0.017s,PASSED
+"errorMessage4 = getText(findTestObject(""Object Repository/Page_1725545881244/errorMessage""))",Firefox 129.0,,,2024-09-05 23:30:36,2024-09-05 23:30:37,0.435s,PASSED
+"borderColor4 = getCSSValue(findTestObject(""Object Repository/Page_1725545881244/borderEmail""), ""border-bottom-color"")",Firefox 129.0,,,2024-09-05 23:30:37,2024-09-05 23:30:37,0.398s,PASSED
+"checkBorderColor4 = verifyEqual(borderColor, ""rgb(240, 40, 73)"")",Firefox 129.0,,,2024-09-05 23:30:37,2024-09-05 23:30:37,0.004s,PASSED
+println(borderColor4),Firefox 129.0,,,2024-09-05 23:30:37,2024-09-05 23:30:37,0.000s,PASSED
+println(checkBorderColor4),Firefox 129.0,,,2024-09-05 23:30:37,2024-09-05 23:30:37,0.001s,PASSED
+println(failedLogin4),Firefox 129.0,,,2024-09-05 23:30:37,2024-09-05 23:30:37,0.002s,PASSED
+println(errorMessage4),Firefox 129.0,,,2024-09-05 23:30:37,2024-09-05 23:30:37,0.001s,PASSED
+"if (checkBorderColor4 == ""true"" && failedLogin4.contains(""https://www.facebook.com/login/device-based/regular/login/?login_attempt="") && errorMessage4 == ""The email address or mobile number you entered isn't connected to an account. Create a new Facebook account."")",Firefox 129.0,,,2024-09-05 23:30:37,2024-09-05 23:30:39,1.825s,PASSED
+,,,,,,,
+Test Cases/Web Facebook/LoginPageSetelahUserSuccessLogin,Firefox 129.0,,,2024-09-05 23:30:39,2024-09-05 23:32:48,2m - 9.236s,PASSED
+"openBrowser("""")",Firefox 129.0,,,2024-09-05 23:30:40,2024-09-05 23:30:49,9.368s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Firefox 129.0,,,2024-09-05 23:30:49,2024-09-05 23:30:53,3.322s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), email)",Firefox 129.0,,,2024-09-05 23:30:53,2024-09-05 23:30:54,1.515s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:30:54,2024-09-05 23:30:55,0.554s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:30:55,2024-09-05 23:31:33,38.423s,PASSED
+successLogin = getUrl(),Firefox 129.0,,,2024-09-05 23:31:33,2024-09-05 23:31:33,0.012s,PASSED
+"username = getText(findTestObject(""Object Repository/Page_(20) Facebook/username""))",Firefox 129.0,,,2024-09-05 23:31:33,2024-09-05 23:31:38,5.250s,PASSED
+println(successLogin),Firefox 129.0,,,2024-09-05 23:31:38,2024-09-05 23:31:38,0.002s,PASSED
+println(username),Firefox 129.0,,,2024-09-05 23:31:38,2024-09-05 23:31:38,0.001s,PASSED
+"if (successLogin == ""https://www.facebook.com/"" && username == ""Rahma Nisa Z E"")",Firefox 129.0,,,2024-09-05 23:31:38,2024-09-05 23:31:38,0.003s,PASSED
+"click(findTestObject(""Object Repository/Page_(20) Facebook/menuFacebook""))",Firefox 129.0,,,2024-09-05 23:31:38,2024-09-05 23:32:11,32.210s,PASSED
+"click(findTestObject(""Object Repository/Page_(20) Facebook/div_Keluar""))",Firefox 129.0,,,2024-09-05 23:32:11,2024-09-05 23:32:44,33.769s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Facebook  log in or sign up/tooltip""), 20)",Firefox 129.0,,,2024-09-05 23:32:44,2024-09-05 23:32:45,0.485s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Remove""))",Firefox 129.0,,,2024-09-05 23:32:45,2024-09-05 23:32:46,0.826s,PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Page_Facebook  log in or sign up/wording desc recent login""), 20))",Firefox 129.0,,,2024-09-05 23:32:46,2024-09-05 23:32:48,2.493s,PASSED
+,,,,,,,
+Test Cases/Web Facebook/LoginValidSetelahSalahInputEmailOrPassword,Firefox 129.0,,,2024-09-05 23:32:48,2024-09-05 23:34:21,1m - 33.102s,PASSED
+"openBrowser("""")",Firefox 129.0,,,2024-09-05 23:32:49,2024-09-05 23:32:58,8.876s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Firefox 129.0,,,2024-09-05 23:32:58,2024-09-05 23:33:00,2.468s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), invalidEmail)",Firefox 129.0,,,2024-09-05 23:33:00,2024-09-05 23:33:02,1.364s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:33:02,2024-09-05 23:33:02,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:33:02,2024-09-05 23:33:35,33.117s,PASSED
+failedLogin = getUrl(),Firefox 129.0,,,2024-09-05 23:33:35,2024-09-05 23:33:35,0.014s,PASSED
+"errorMessage = getText(findTestObject(""Object Repository/Page_1725545881244/errorMessage""))",Firefox 129.0,,,2024-09-05 23:33:35,2024-09-05 23:33:36,0.422s,PASSED
+"borderColor = getCSSValue(findTestObject(""Object Repository/Page_1725545881244/borderEmail""), ""border-bottom-color"")",Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:36,0.414s,PASSED
+"checkBorderColor = verifyEqual(borderColor, ""rgb(240, 40, 73)"")",Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:36,0.003s,PASSED
+println(borderColor),Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:36,0.001s,PASSED
+println(checkBorderColor),Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:36,0.001s,PASSED
+println(failedLogin),Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:36,0.001s,PASSED
+println(errorMessage),Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:36,0.001s,PASSED
+"if (checkBorderColor == ""true"" && failedLogin.contains(""https://www.facebook.com/login/?privacy_mutation_token="") && errorMessage == ""The email address or mobile number you entered isn't connected to an account. Find your account and log in."")",Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:36,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), validEmail)",Firefox 129.0,,,2024-09-05 23:33:36,2024-09-05 23:33:37,0.865s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:33:37,2024-09-05 23:33:38,0.442s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:33:38,2024-09-05 23:34:15,36.886s,PASSED
+successLogin = getUrl(),Firefox 129.0,,,2024-09-05 23:34:15,2024-09-05 23:34:15,0.024s,PASSED
+"username = getText(findTestObject(""Object Repository/Page_(20) Facebook/username""))",Firefox 129.0,,,2024-09-05 23:34:15,2024-09-05 23:34:18,3.360s,PASSED
+println(successLogin),Firefox 129.0,,,2024-09-05 23:34:18,2024-09-05 23:34:18,0.001s,PASSED
+println(username),Firefox 129.0,,,2024-09-05 23:34:18,2024-09-05 23:34:18,0.000s,PASSED
+"if (successLogin == ""https://www.facebook.com/"" && username == ""Rahma Nisa Z E"")",Firefox 129.0,,,2024-09-05 23:34:18,2024-09-05 23:34:21,3.323s,PASSED
+,,,,,,,
+Test Cases/Web Facebook/LoginValidUsernameAndPassword,Firefox 129.0,,,2024-09-05 23:34:21,2024-09-05 23:35:20,58.872s,PASSED
+"openBrowser("""")",Firefox 129.0,,,2024-09-05 23:34:22,2024-09-05 23:34:31,8.421s,PASSED
+"navigateToUrl(""https://www.facebook.com/"")",Firefox 129.0,,,2024-09-05 23:34:31,2024-09-05 23:34:33,2.476s,PASSED
+"setText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), email)",Firefox 129.0,,,2024-09-05 23:34:33,2024-09-05 23:34:34,1.148s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""PNKhqrno+crZQceKVOcGnA=="")",Firefox 129.0,,,2024-09-05 23:34:34,2024-09-05 23:34:35,0.505s,PASSED
+"click(findTestObject(""Object Repository/Page_Facebook  log in or sign up/button_Log in""))",Firefox 129.0,,,2024-09-05 23:34:35,2024-09-05 23:35:12,37.260s,PASSED
+successLogin = getUrl(),Firefox 129.0,,,2024-09-05 23:35:12,2024-09-05 23:35:12,0.014s,PASSED
+"username = getText(findTestObject(""Object Repository/Page_(20) Facebook/username""))",Firefox 129.0,,,2024-09-05 23:35:12,2024-09-05 23:35:17,5.152s,PASSED
+println(successLogin),Firefox 129.0,,,2024-09-05 23:35:17,2024-09-05 23:35:17,0.000s,PASSED
+println(username),Firefox 129.0,,,2024-09-05 23:35:17,2024-09-05 23:35:17,0.000s,PASSED
+"if (successLogin == ""https://www.facebook.com/"" && username == ""Rahma Nisa Z E"")",Firefox 129.0,,,2024-09-05 23:35:17,2024-09-05 23:35:20,3.018s,PASSED

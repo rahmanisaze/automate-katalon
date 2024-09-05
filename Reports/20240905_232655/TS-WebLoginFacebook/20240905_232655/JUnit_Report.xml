@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-WebLoginFacebook" time="497.294" tests="5" failures="0" errors="0">
+   <testsuite name="TS-WebLoginFacebook" tests="5" failures="0" errors="0" time="497.294" skipped="0" timestamp="2024-09-05 23:27:03" hostname="USER - LAPTOP-RBDGH2Q5" id="Test Suites/TS-WebLoginFacebook">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\Katalon Studio\\automate-katalon\\Reports\\20240905_232655\\TS-WebLoginFacebook\\20240905_232655"/>
+         <property name="logFiles" value="C:\\Users\\USER\\Katalon Studio\\automate-katalon\\Reports\\20240905_232655\\TS-WebLoginFacebook\\20240905_232655\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - LAPTOP-RBDGH2Q5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Firefox 129.0"/>
+         <property name="hostAddress" value="192.168.0.190"/>
+         <property name="sessionId" value="62fff125-5e71-40de-900d-b2168d22a427"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Web Facebook/LoginInvalidEmailOrPassword" time="58.867" classname="Test Cases/Web Facebook/LoginInvalidEmailOrPassword" status="PASSED">
+         <system-out><![CDATA[2024-09-05 23:27:04 - [TEST_CASE][PASSED] - Test Cases/Web Facebook/LoginInvalidEmailOrPassword: Test Cases/Web Facebook/LoginInvalidEmailOrPassword
+
+2024-09-05 23:27:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-09-05 23:27:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-09-05 23:27:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-05 23:27:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-09-05 23:27:21 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:27:23 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:27:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), email): Text 'fjwoiw3ur8923' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:27:25 - [MESSAGE][PASSED] - Text 'fjwoiw3ur8923' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:27:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:27:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:27:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:27:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:27:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:27:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:27:59 - [TEST_STEP][PASSED] - failedLogin = getUrl(): Current window's url is: 'https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI1NTUzNjQ0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next'
+
+2024-09-05 23:27:59 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI1NTUzNjQ0LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next'
+
+2024-09-05 23:27:59 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Object Repository/Page_1725545881244/errorMessage")): Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:27:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:27:59 - [TEST_STEP][PASSED] - borderColor = getCSSValue(findTestObject("Object Repository/Page_1725545881244/borderEmail"), "border-bottom-color"): Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:28:00 - [MESSAGE][PASSED] - Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - checkBorderColor = verifyEqual(borderColor, "rgb(240, 40, 73)"): Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:28:00 - [MESSAGE][PASSED] - Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - println(borderColor): null
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - println(checkBorderColor): null
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - println(failedLogin): null
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - println(errorMessage): null
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - if (checkBorderColor == "true" && failedLogin.contains("https://www.facebook.com/login/?privacy_mutation_token=") && errorMessage == "The email address or mobile number you entered isn't connected to an account. Find your account and log in."): Browser is closed
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - println("failed login"): null
+
+2024-09-05 23:28:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-09-05 23:28:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Facebook/LoginInvalidTigaKaliAtauLebih" time="156.405" classname="Test Cases/Web Facebook/LoginInvalidTigaKaliAtauLebih" status="PASSED">
+         <system-out><![CDATA[2024-09-05 23:28:02 - [TEST_CASE][PASSED] - Test Cases/Web Facebook/LoginInvalidTigaKaliAtauLebih: Test Cases/Web Facebook/LoginInvalidTigaKaliAtauLebih
+
+2024-09-05 23:28:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-09-05 23:28:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-09-05 23:28:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-05 23:28:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-09-05 23:28:12 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:28:14 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:28:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), email): Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:28:16 - [MESSAGE][PASSED] - Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:28:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:28:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:28:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:28:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:28:48 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:28:49 - [TEST_STEP][PASSED] - failedLogin = getUrl(): Current window's url is: 'https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI1NTUzNjk1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next'
+
+2024-09-05 23:28:49 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI1NTUzNjk1LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next'
+
+2024-09-05 23:28:49 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Object Repository/Page_1725545881244/errorMessage")): Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:28:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - borderColor = getCSSValue(findTestObject("Object Repository/Page_1725545881244/borderEmail"), "border-bottom-color"): Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:28:50 - [MESSAGE][PASSED] - Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - checkBorderColor = verifyEqual(borderColor, "rgb(240, 40, 73)"): Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:28:50 - [MESSAGE][PASSED] - Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - println(borderColor): null
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - println(checkBorderColor): null
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - println(failedLogin): null
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - println(errorMessage): null
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - if (checkBorderColor == "true" && failedLogin.contains("https://www.facebook.com/login/?privacy_mutation_token=") && errorMessage == "The email address or mobile number you entered isn't connected to an account. Find your account and log in."): null
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - println("failed login sekali"): null
+
+2024-09-05 23:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), email): Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:28:51 - [MESSAGE][PASSED] - Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:28:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:28:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:28:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:29:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:29:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:29:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:29:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:29:25 - [TEST_STEP][PASSED] - failedLogin2 = getUrl(): Current window's url is: 'https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=120&lwc=1348028'
+
+2024-09-05 23:29:25 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=120&lwc=1348028'
+
+2024-09-05 23:29:25 - [TEST_STEP][PASSED] - errorMessage2 = getText(findTestObject("Object Repository/Page_1725545881244/errorMessage")): Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:29:25 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:29:25 - [TEST_STEP][PASSED] - borderColor2 = getCSSValue(findTestObject("Object Repository/Page_1725545881244/borderEmail"), "border-bottom-color"): Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:29:26 - [MESSAGE][PASSED] - Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - checkBorderColor2 = verifyEqual(borderColor, "rgb(240, 40, 73)"): Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:29:26 - [MESSAGE][PASSED] - Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - println(borderColor2): null
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - println(checkBorderColor2): null
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - println(failedLogin2): null
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - println(errorMessage2): null
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - if (checkBorderColor2 == "true" && failedLogin2.contains("https://www.facebook.com/login/device-based/regular/login/?login_attempt=") && errorMessage2 == "The email address or mobile number you entered isn't connected to an account. Find your account and log in."): null
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - println("failed login dua kali"): null
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), email): Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:29:26 - [MESSAGE][PASSED] - Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:29:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:29:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:29:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:29:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:29:58 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:29:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:30:01 - [TEST_STEP][PASSED] - failedLogin3 = getUrl(): Current window's url is: 'https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=120&lwc=1348028'
+
+2024-09-05 23:30:01 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=120&lwc=1348028'
+
+2024-09-05 23:30:01 - [TEST_STEP][PASSED] - errorMessage3 = getText(findTestObject("Object Repository/Page_1725545881244/errorMessage")): Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Create a new Facebook account.'
+
+2024-09-05 23:30:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Create a new Facebook account.'
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - borderColor3 = getCSSValue(findTestObject("Object Repository/Page_1725545881244/borderEmail"), "border-bottom-color"): Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:30:02 - [MESSAGE][PASSED] - Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - checkBorderColor3 = verifyEqual(borderColor, "rgb(240, 40, 73)"): Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:30:02 - [MESSAGE][PASSED] - Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - println(borderColor3): null
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - println(checkBorderColor3): null
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - println(failedLogin3): null
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - println(errorMessage3): null
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - if (checkBorderColor3 == "true" && failedLogin3.contains("https://www.facebook.com/login/device-based/regular/login/?login_attempt=") && errorMessage3 == "The email address or mobile number you entered isn't connected to an account. Create a new Facebook account."): null
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - println("failed login tiga kali"): null
+
+2024-09-05 23:30:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), email): Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:30:03 - [MESSAGE][PASSED] - Text 'ajdfiiew4' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:30:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:30:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:30:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:30:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:30:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:30:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:30:36 - [TEST_STEP][PASSED] - failedLogin4 = getUrl(): Current window's url is: 'https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=120&lwc=1348028'
+
+2024-09-05 23:30:36 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=120&lwc=1348028'
+
+2024-09-05 23:30:36 - [TEST_STEP][PASSED] - errorMessage4 = getText(findTestObject("Object Repository/Page_1725545881244/errorMessage")): Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Create a new Facebook account.'
+
+2024-09-05 23:30:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Create a new Facebook account.'
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - borderColor4 = getCSSValue(findTestObject("Object Repository/Page_1725545881244/borderEmail"), "border-bottom-color"): Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:30:37 - [MESSAGE][PASSED] - Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - checkBorderColor4 = verifyEqual(borderColor, "rgb(240, 40, 73)"): Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:30:37 - [MESSAGE][PASSED] - Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - println(borderColor4): null
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - println(checkBorderColor4): null
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - println(failedLogin4): null
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - println(errorMessage4): null
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - if (checkBorderColor4 == "true" && failedLogin4.contains("https://www.facebook.com/login/device-based/regular/login/?login_attempt=") && errorMessage4 == "The email address or mobile number you entered isn't connected to an account. Create a new Facebook account."): Browser is closed
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - println("failed login empat kali"): null
+
+2024-09-05 23:30:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-09-05 23:30:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Facebook/LoginPageSetelahUserSuccessLogin" time="129.236" classname="Test Cases/Web Facebook/LoginPageSetelahUserSuccessLogin" status="PASSED">
+         <system-out><![CDATA[2024-09-05 23:30:39 - [TEST_CASE][PASSED] - Test Cases/Web Facebook/LoginPageSetelahUserSuccessLogin: Test Cases/Web Facebook/LoginPageSetelahUserSuccessLogin
+
+2024-09-05 23:30:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-09-05 23:30:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-09-05 23:30:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-05 23:30:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-09-05 23:30:49 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:30:53 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:30:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), email): Text 'rahmanisa367@yahoo.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:30:54 - [MESSAGE][PASSED] - Text 'rahmanisa367@yahoo.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:30:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:30:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:30:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:31:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:31:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:31:26 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:31:33 - [TEST_STEP][PASSED] - successLogin = getUrl(): Current window's url is: 'https://www.facebook.com/'
+
+2024-09-05 23:31:33 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/'
+
+2024-09-05 23:31:33 - [TEST_STEP][PASSED] - username = getText(findTestObject("Object Repository/Page_(20) Facebook/username")): Text of object 'Object Repository/Page_(20) Facebook/username' is: 'Rahma Nisa Z E'
+
+2024-09-05 23:31:38 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_(20) Facebook/username' is: 'Rahma Nisa Z E'
+
+2024-09-05 23:31:38 - [TEST_STEP][PASSED] - println(successLogin): null
+
+2024-09-05 23:31:38 - [TEST_STEP][PASSED] - println(username): null
+
+2024-09-05 23:31:38 - [TEST_STEP][PASSED] - if (successLogin == "https://www.facebook.com/" && username == "Rahma Nisa Z E"): null
+
+2024-09-05 23:31:38 - [TEST_STEP][PASSED] - println("success login"): null
+
+2024-09-05 23:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_(20) Facebook/menuFacebook")): Object: 'Object Repository/Page_(20) Facebook/menuFacebook' is clicked on
+
+2024-09-05 23:32:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='mount_0_0_1G']/div/div/div/div/div[2]/div[5]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:32:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_(20) Facebook/menuFacebook'. Try using Self-healing.
+
+2024-09-05 23:32:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_(20) Facebook/menuFacebook' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Menu Facebook'])[1]/preceding::span[1]'.
+
+2024-09-05 23:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_(20) Facebook/menuFacebook' is clicked on
+
+2024-09-05 23:32:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_(20) Facebook/div_Keluar")): Object: 'Object Repository/Page_(20) Facebook/div_Keluar' is clicked on
+
+2024-09-05 23:32:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='mount_0_0_dp']/div/div/div/div/div[2]/div[5]/div[2]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/div[5]/div/div/div[2]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:32:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_(20) Facebook/div_Keluar'. Try using Self-healing.
+
+2024-09-05 23:32:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_(20) Facebook/div_Keluar' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Beri masukan'])[1]/following::div[8]'.
+
+2024-09-05 23:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_(20) Facebook/div_Keluar' is clicked on
+
+2024-09-05 23:32:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Facebook  log in or sign up/tooltip"), 20): Object 'Object Repository/Page_Facebook  log in or sign up/tooltip' is present
+
+2024-09-05 23:32:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Facebook  log in or sign up/tooltip' is present
+
+2024-09-05 23:32:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Remove")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Remove' is clicked on
+
+2024-09-05 23:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Remove' is clicked on
+
+2024-09-05 23:32:46 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Page_Facebook  log in or sign up/wording desc recent login"), 20)): null
+
+2024-09-05 23:32:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Facebook  log in or sign up/wording desc recent login' is present
+
+2024-09-05 23:32:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-09-05 23:32:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Facebook/LoginValidSetelahSalahInputEmailOrPassword" time="93.102" classname="Test Cases/Web Facebook/LoginValidSetelahSalahInputEmailOrPassword" status="PASSED">
+         <system-out><![CDATA[2024-09-05 23:32:48 - [TEST_CASE][PASSED] - Test Cases/Web Facebook/LoginValidSetelahSalahInputEmailOrPassword: Test Cases/Web Facebook/LoginValidSetelahSalahInputEmailOrPassword
+
+2024-09-05 23:32:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-09-05 23:32:49 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-09-05 23:32:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-05 23:32:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-09-05 23:32:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:33:00 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:33:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), invalidEmail): Text 'ioheu12' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:33:02 - [MESSAGE][PASSED] - Text 'ioheu12' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:33:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:33:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:33:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:33:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:33:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:33:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:33:35 - [TEST_STEP][PASSED] - failedLogin = getUrl(): Current window's url is: 'https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI1NTUzOTgxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next'
+
+2024-09-05 23:33:35 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNzI1NTUzOTgxLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D&next'
+
+2024-09-05 23:33:35 - [TEST_STEP][PASSED] - errorMessage = getText(findTestObject("Object Repository/Page_1725545881244/errorMessage")): Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:33:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_1725545881244/errorMessage' is: 'The email address or mobile number you entered isn't connected to an account. Find your account and log in.'
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - borderColor = getCSSValue(findTestObject("Object Repository/Page_1725545881244/borderEmail"), "border-bottom-color"): Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:33:36 - [MESSAGE][PASSED] - Get CSS 'border-bottom-color' value on 'Object Repository/Page_1725545881244/borderEmail' successfully: 'rgb(240, 40, 73)'.
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - checkBorderColor = verifyEqual(borderColor, "rgb(240, 40, 73)"): Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:33:36 - [MESSAGE][PASSED] - Actual object 'rgb(240, 40, 73)' and expected object 'rgb(240, 40, 73)' are equal
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - println(borderColor): null
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - println(checkBorderColor): null
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - println(failedLogin): null
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - println(errorMessage): null
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - if (checkBorderColor == "true" && failedLogin.contains("https://www.facebook.com/login/?privacy_mutation_token=") && errorMessage == "The email address or mobile number you entered isn't connected to an account. Find your account and log in."): null
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - println("failed login"): null
+
+2024-09-05 23:33:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), validEmail): Text 'rahmanisa367@yahoo.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:33:37 - [MESSAGE][PASSED] - Text 'rahmanisa367@yahoo.com' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:33:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:33:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:33:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:34:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:34:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:34:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:34:15 - [TEST_STEP][PASSED] - successLogin = getUrl(): Current window's url is: 'https://www.facebook.com/'
+
+2024-09-05 23:34:15 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/'
+
+2024-09-05 23:34:15 - [TEST_STEP][PASSED] - username = getText(findTestObject("Object Repository/Page_(20) Facebook/username")): Text of object 'Object Repository/Page_(20) Facebook/username' is: 'Rahma Nisa Z E'
+
+2024-09-05 23:34:18 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_(20) Facebook/username' is: 'Rahma Nisa Z E'
+
+2024-09-05 23:34:18 - [TEST_STEP][PASSED] - println(successLogin): null
+
+2024-09-05 23:34:18 - [TEST_STEP][PASSED] - println(username): null
+
+2024-09-05 23:34:18 - [TEST_STEP][PASSED] - if (successLogin == "https://www.facebook.com/" && username == "Rahma Nisa Z E"): Browser is closed
+
+2024-09-05 23:34:18 - [TEST_STEP][PASSED] - println("success login"): null
+
+2024-09-05 23:34:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-09-05 23:34:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Facebook/LoginValidUsernameAndPassword" time="58.872" classname="Test Cases/Web Facebook/LoginValidUsernameAndPassword" status="PASSED">
+         <system-out><![CDATA[2024-09-05 23:34:21 - [TEST_CASE][PASSED] - Test Cases/Web Facebook/LoginValidUsernameAndPassword: Test Cases/Web Facebook/LoginValidUsernameAndPassword
+
+2024-09-05 23:34:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2024-09-05 23:34:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2024-09-05 23:34:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2024-09-05 23:34:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2024-09-05 23:34:31 - [TEST_STEP][PASSED] - navigateToUrl("https://www.facebook.com/"): Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:34:33 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2024-09-05 23:34:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), email): Text 'rahmanisa367@yahoo.com
+' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:34:34 - [MESSAGE][PASSED] - Text 'rahmanisa367@yahoo.com
+' is set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+2024-09-05 23:34:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "PNKhqrno+crZQceKVOcGnA=="): Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:34:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+2024-09-05 23:34:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:35:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_8V']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2024-09-05 23:35:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+2024-09-05 23:35:06 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Forgotten password?'])[1]/preceding::button[1]'.
+
+2024-09-05 23:35:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+2024-09-05 23:35:12 - [TEST_STEP][PASSED] - successLogin = getUrl(): Current window's url is: 'https://www.facebook.com/'
+
+2024-09-05 23:35:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.facebook.com/'
+
+2024-09-05 23:35:12 - [TEST_STEP][PASSED] - username = getText(findTestObject("Object Repository/Page_(20) Facebook/username")): Text of object 'Object Repository/Page_(20) Facebook/username' is: 'Rahma Nisa Z E'
+
+2024-09-05 23:35:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_(20) Facebook/username' is: 'Rahma Nisa Z E'
+
+2024-09-05 23:35:17 - [TEST_STEP][PASSED] - println(successLogin): null
+
+2024-09-05 23:35:17 - [TEST_STEP][PASSED] - println(username): null
+
+2024-09-05 23:35:17 - [TEST_STEP][PASSED] - if (successLogin == "https://www.facebook.com/" && username == "Rahma Nisa Z E"): Browser is closed
+
+2024-09-05 23:35:17 - [TEST_STEP][PASSED] - println("success login"): null
+
+2024-09-05 23:35:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2024-09-05 23:35:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-05 23:27:03 - [TEST_SUITE][PASSED] - TS-WebLoginFacebook: Test Cases/Web Facebook/LoginValidUsernameAndPassword]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

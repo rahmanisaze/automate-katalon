@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menuFacebook</name>
+   <tag></tag>
+   <elementGuidId>48eca319-d4dc-42e0-bce9-26e1794b36c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.x6s0dn4.x78zum5.x1s65kcs.x1n2onr6.x1ja2u2z > span.x4k7w5x.x1h91t0o.x1h9r5lt.x1jfb8zj.xv2umb2.x1beo9mf.xaigb6o.x12ejxvf.x3igimt.xarpa2k.xedcshv.x1lytzrv.x1t2pt76.x7ja8zs.x1qrby5j</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mount_0_0_1G']/div/div/div/div/div[2]/div[5]/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>71db19cc-6e20-4c50-9bc4-17e3472feec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j</value>
+      <webElementGuid>42e81ce6-8fbc-40b8-b236-f1c228b275f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mount_0_0_1G&quot;)/div[1]/div[@class=&quot;html-div xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x17hbii1 x1kd72b6 x13ywhbb xahrfoy x78zum5 xdt5ytf x1iyjqo2&quot;]/div[1]/div[@class=&quot;x9f619 x1n2onr6 x1ja2u2z&quot;]/div[2]/div[@class=&quot;xds687c x1pi30zi x1e558r4 xixxii4 x13vifvy xzkaem6&quot;]/div[@class=&quot;x6s0dn4 x78zum5 x1s65kcs x1n2onr6 x1ja2u2z&quot;]/span[@class=&quot;x4k7w5x x1h91t0o x1h9r5lt x1jfb8zj xv2umb2 x1beo9mf xaigb6o x12ejxvf x3igimt xarpa2k xedcshv x1lytzrv x1t2pt76 x7ja8zs x1qrby5j&quot;]</value>
+      <webElementGuid>9666d2d9-60d1-46be-8c97-a14515f12196</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mount_0_0_1G']/div/div/div/div/div[2]/div[5]/div/span</value>
+      <webElementGuid>d4467e93-4569-40ed-8fcf-8b1a31fe56db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu Facebook'])[1]/preceding::span[1]</value>
+      <webElementGuid>5811f943-7ad3-4ccc-acb5-07fce88c8c77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rahma Nisa Z E'])[1]/preceding::span[1]</value>
+      <webElementGuid>1547a51b-79d3-4012-b6f4-28a7ac48b3cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/span</value>
+      <webElementGuid>99069d39-af3f-4b23-b3ab-4e7b22d44361</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

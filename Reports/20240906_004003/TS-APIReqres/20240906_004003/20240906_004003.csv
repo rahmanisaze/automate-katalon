@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-APIReqres,,,,2024-09-06 00:40:10,2024-09-06 00:40:49,38.526s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Create,,,,2024-09-06 00:40:11,2024-09-06 00:40:22,10.602s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Create""))",,,,2024-09-06 00:40:12,2024-09-06 00:40:21,9.355s,PASSED
+"verifyResponseStatusCode(response, 201)",,,,2024-09-06 00:40:21,2024-09-06 00:40:22,0.037s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,2024-09-06 00:40:22,2024-09-06 00:40:22,0.191s,PASSED
+"verifyElementPropertyValue(response, ""job"", ""leader"")",,,,2024-09-06 00:40:22,2024-09-06 00:40:22,0.077s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Delayed Response,,,,2024-09-06 00:40:22,2024-09-06 00:40:26,4.537s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Delayed Response""))",,,,2024-09-06 00:40:23,2024-09-06 00:40:26,3.766s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:26,2024-09-06 00:40:26,0.012s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Delete,,,,2024-09-06 00:40:26,2024-09-06 00:40:28,1.874s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Delete""))",,,,2024-09-06 00:40:27,2024-09-06 00:40:28,0.789s,PASSED
+"verifyResponseStatusCode(response, 204)",,,,2024-09-06 00:40:28,2024-09-06 00:40:28,0.006s,PASSED
+,,,,,,,
+Test Cases/API Reqres/List Resource,,,,2024-09-06 00:40:28,2024-09-06 00:40:30,1.621s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/List Resource""))",,,,2024-09-06 00:40:29,2024-09-06 00:40:30,0.819s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:30,2024-09-06 00:40:30,0.006s,PASSED
+,,,,,,,
+Test Cases/API Reqres/List User,,,,2024-09-06 00:40:30,2024-09-06 00:40:31,1.337s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/List User""))",,,,2024-09-06 00:40:31,2024-09-06 00:40:31,0.391s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:31,2024-09-06 00:40:31,0.007s,PASSED
+"verifyElementPropertyValue(response, ""page"", 2)",,,,2024-09-06 00:40:31,2024-09-06 00:40:31,0.045s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Login - Successful,,,,2024-09-06 00:40:31,2024-09-06 00:40:33,1.685s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Login - Successful""))",,,,2024-09-06 00:40:32,2024-09-06 00:40:33,0.765s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:33,2024-09-06 00:40:33,0.006s,PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X4"")",,,,2024-09-06 00:40:33,2024-09-06 00:40:33,0.096s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Login - Unsuccessful,,,,2024-09-06 00:40:33,2024-09-06 00:40:36,2.770s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Login - Unsuccessful""))",,,,2024-09-06 00:40:34,2024-09-06 00:40:36,1.879s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2024-09-06 00:40:36,2024-09-06 00:40:36,0.004s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Missing password"")",,,,2024-09-06 00:40:36,2024-09-06 00:40:36,0.050s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Register - Successful,,,,2024-09-06 00:40:36,2024-09-06 00:40:38,1.791s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Register - Successful""))",,,,2024-09-06 00:40:37,2024-09-06 00:40:37,0.718s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:37,2024-09-06 00:40:37,0.008s,PASSED
+"verifyElementPropertyValue(response, ""token"", ""QpwL5tke4Pnpja7X4"")",,,,2024-09-06 00:40:37,2024-09-06 00:40:37,0.049s,PASSED
+"verifyElementPropertyValue(response, ""id"", 4)",,,,2024-09-06 00:40:37,2024-09-06 00:40:38,0.058s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Register - Unsuccessful,,,,2024-09-06 00:40:38,2024-09-06 00:40:39,1.788s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Register - Unsuccessful""))",,,,2024-09-06 00:40:39,2024-09-06 00:40:39,0.755s,PASSED
+"verifyResponseStatusCode(response, 400)",,,,2024-09-06 00:40:39,2024-09-06 00:40:39,0.006s,PASSED
+"verifyElementPropertyValue(response, ""error"", ""Missing password"")",,,,2024-09-06 00:40:39,2024-09-06 00:40:39,0.052s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Single Resource Not Found,,,,2024-09-06 00:40:39,2024-09-06 00:40:41,1.955s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Single Resource Not Found""))",,,,2024-09-06 00:40:40,2024-09-06 00:40:41,0.821s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2024-09-06 00:40:41,2024-09-06 00:40:41,0.007s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Single Resource,,,,2024-09-06 00:40:41,2024-09-06 00:40:43,1.677s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Single Resource""))",,,,2024-09-06 00:40:42,2024-09-06 00:40:43,0.706s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:43,2024-09-06 00:40:43,0.004s,PASSED
+"verifyElementPropertyValue(response, ""data.id"", 2)",,,,2024-09-06 00:40:43,2024-09-06 00:40:43,0.050s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Single User Not Found,,,,2024-09-06 00:40:43,2024-09-06 00:40:45,1.525s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Single User Not Found""))",,,,2024-09-06 00:40:44,2024-09-06 00:40:45,0.777s,PASSED
+"verifyResponseStatusCode(response, 404)",,,,2024-09-06 00:40:45,2024-09-06 00:40:45,0.004s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Single User,,,,2024-09-06 00:40:45,2024-09-06 00:40:46,1.168s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Single User""))",,,,2024-09-06 00:40:45,2024-09-06 00:40:46,0.340s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:46,2024-09-06 00:40:46,0.005s,PASSED
+"verifyElementPropertyValue(response, ""data.id"", 2)",,,,2024-09-06 00:40:46,2024-09-06 00:40:46,0.051s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Update Patch,,,,2024-09-06 00:40:46,2024-09-06 00:40:47,1.633s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Update patch""))",,,,2024-09-06 00:40:47,2024-09-06 00:40:47,0.705s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:47,2024-09-06 00:40:47,0.004s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,2024-09-06 00:40:47,2024-09-06 00:40:47,0.037s,PASSED
+"verifyElementPropertyValue(response, ""job"", ""zion resident"")",,,,2024-09-06 00:40:47,2024-09-06 00:40:47,0.037s,PASSED
+,,,,,,,
+Test Cases/API Reqres/Update,,,,2024-09-06 00:40:47,2024-09-06 00:40:49,1.659s,PASSED
+"response = sendRequest(findTestObject(""Object Repository/API Reqres/Update""))",,,,2024-09-06 00:40:48,2024-09-06 00:40:49,0.795s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2024-09-06 00:40:49,2024-09-06 00:40:49,0.005s,PASSED
+"verifyElementPropertyValue(response, ""job"", ""zion resident"")",,,,2024-09-06 00:40:49,2024-09-06 00:40:49,0.032s,PASSED
+"verifyElementPropertyValue(response, ""name"", ""morpheus"")",,,,2024-09-06 00:40:49,2024-09-06 00:40:49,0.050s,PASSED

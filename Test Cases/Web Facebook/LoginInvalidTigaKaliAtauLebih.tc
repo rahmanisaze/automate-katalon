@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginInvalidTigaKaliAtauLebih</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e65da518-f596-4452-9415-f4dcae750a7b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ce4c64dd-000f-4f52-bd7f-936e394b6e2a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ajdfiiew4'</defaultValue>
+      <description></description>
+      <id>ce4c64dd-000f-4f52-bd7f-936e394b6e2a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

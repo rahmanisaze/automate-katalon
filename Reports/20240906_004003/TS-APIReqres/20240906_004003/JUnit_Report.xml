@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS-APIReqres" time="38.526" tests="15" failures="0" errors="0">
+   <testsuite name="TS-APIReqres" tests="15" failures="0" errors="0" time="38.526" skipped="0" timestamp="2024-09-06 00:40:10" hostname="USER - LAPTOP-RBDGH2Q5" id="Test Suites/TS-APIReqres">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\USER\\Katalon Studio\\automate-katalon\\Reports\\20240906_004003\\TS-APIReqres\\20240906_004003"/>
+         <property name="logFiles" value="C:\\Users\\USER\\Katalon Studio\\automate-katalon\\Reports\\20240906_004003\\TS-APIReqres\\20240906_004003\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="USER - LAPTOP-RBDGH2Q5"/>
+         <property name="hostAddress" value="192.168.0.190"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+      </properties>
+      <testcase name="Test Cases/API Reqres/Create" time="10.602" classname="Test Cases/API Reqres/Create" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:11 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Create: Test Cases/API Reqres/Create
+
+2024-09-06 00:40:12 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Create")): Send request successfully
+
+2024-09-06 00:40:21 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\0.har
+
+2024-09-06 00:40:21 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+2024-09-06 00:40:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+2024-09-06 00:40:22 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2024-09-06 00:40:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "leader"): Verify element property value successfully
+
+2024-09-06 00:40:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Delayed Response" time="4.537" classname="Test Cases/API Reqres/Delayed Response" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:22 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Delayed Response: Test Cases/API Reqres/Delayed Response
+
+2024-09-06 00:40:23 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Delayed Response")): Send request successfully
+
+2024-09-06 00:40:26 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\1.har
+
+2024-09-06 00:40:26 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:26 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Delete" time="1.874" classname="Test Cases/API Reqres/Delete" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:26 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Delete: Test Cases/API Reqres/Delete
+
+2024-09-06 00:40:27 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Delete")): Send request successfully
+
+2024-09-06 00:40:28 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\2.har
+
+2024-09-06 00:40:28 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:28 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 204): Verify response status code successfully
+
+2024-09-06 00:40:28 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/List Resource" time="1.621" classname="Test Cases/API Reqres/List Resource" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:28 - [TEST_CASE][PASSED] - Test Cases/API Reqres/List Resource: Test Cases/API Reqres/List Resource
+
+2024-09-06 00:40:29 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/List Resource")): Send request successfully
+
+2024-09-06 00:40:30 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\3.har
+
+2024-09-06 00:40:30 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:30 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:30 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/List User" time="1.337" classname="Test Cases/API Reqres/List User" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:30 - [TEST_CASE][PASSED] - Test Cases/API Reqres/List User: Test Cases/API Reqres/List User
+
+2024-09-06 00:40:31 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/List User")): Send request successfully
+
+2024-09-06 00:40:31 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\4.har
+
+2024-09-06 00:40:31 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:31 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:31 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:31 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "page", 2): Verify element property value successfully
+
+2024-09-06 00:40:31 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Login - Successful" time="1.685" classname="Test Cases/API Reqres/Login - Successful" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:31 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Login - Successful: Test Cases/API Reqres/Login - Successful
+
+2024-09-06 00:40:32 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Login - Successful")): Send request successfully
+
+2024-09-06 00:40:33 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\5.har
+
+2024-09-06 00:40:33 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:33 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:33 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:33 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+2024-09-06 00:40:33 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Login - Unsuccessful" time="2.77" classname="Test Cases/API Reqres/Login - Unsuccessful" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:33 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Login - Unsuccessful: Test Cases/API Reqres/Login - Unsuccessful
+
+2024-09-06 00:40:34 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Login - Unsuccessful")): Send request successfully
+
+2024-09-06 00:40:36 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\6.har
+
+2024-09-06 00:40:36 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2024-09-06 00:40:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Missing password"): Verify element property value successfully
+
+2024-09-06 00:40:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Register - Successful" time="1.791" classname="Test Cases/API Reqres/Register - Successful" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:36 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Register - Successful: Test Cases/API Reqres/Register - Successful
+
+2024-09-06 00:40:37 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Register - Successful")): Send request successfully
+
+2024-09-06 00:40:37 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\7.har
+
+2024-09-06 00:40:37 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "token", "QpwL5tke4Pnpja7X4"): Verify element property value successfully
+
+2024-09-06 00:40:37 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2024-09-06 00:40:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "id", 4): Verify element property value successfully
+
+2024-09-06 00:40:38 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Register - Unsuccessful" time="1.788" classname="Test Cases/API Reqres/Register - Unsuccessful" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:38 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Register - Unsuccessful: Test Cases/API Reqres/Register - Unsuccessful
+
+2024-09-06 00:40:39 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Register - Unsuccessful")): Send request successfully
+
+2024-09-06 00:40:39 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\8.har
+
+2024-09-06 00:40:39 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:39 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 400): Verify response status code successfully
+
+2024-09-06 00:40:39 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:39 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "error", "Missing password"): Verify element property value successfully
+
+2024-09-06 00:40:39 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Single Resource Not Found" time="1.955" classname="Test Cases/API Reqres/Single Resource Not Found" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:39 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Single Resource Not Found: Test Cases/API Reqres/Single Resource Not Found
+
+2024-09-06 00:40:40 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Single Resource Not Found")): Send request successfully
+
+2024-09-06 00:40:41 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\9.har
+
+2024-09-06 00:40:41 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2024-09-06 00:40:41 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Single Resource" time="1.677" classname="Test Cases/API Reqres/Single Resource" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:41 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Single Resource: Test Cases/API Reqres/Single Resource
+
+2024-09-06 00:40:42 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Single Resource")): Send request successfully
+
+2024-09-06 00:40:43 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\10.har
+
+2024-09-06 00:40:43 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:43 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:43 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:43 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.id", 2): Verify element property value successfully
+
+2024-09-06 00:40:43 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Single User Not Found" time="1.525" classname="Test Cases/API Reqres/Single User Not Found" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:43 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Single User Not Found: Test Cases/API Reqres/Single User Not Found
+
+2024-09-06 00:40:44 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Single User Not Found")): Send request successfully
+
+2024-09-06 00:40:45 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\11.har
+
+2024-09-06 00:40:45 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:45 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 404): Verify response status code successfully
+
+2024-09-06 00:40:45 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Single User" time="1.168" classname="Test Cases/API Reqres/Single User" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:45 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Single User: Test Cases/API Reqres/Single User
+
+2024-09-06 00:40:45 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Single User")): Send request successfully
+
+2024-09-06 00:40:46 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\12.har
+
+2024-09-06 00:40:46 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:46 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:46 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:46 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data.id", 2): Verify element property value successfully
+
+2024-09-06 00:40:46 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Update Patch" time="1.633" classname="Test Cases/API Reqres/Update Patch" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:46 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Update Patch: Test Cases/API Reqres/Update Patch
+
+2024-09-06 00:40:47 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Update patch")): Send request successfully
+
+2024-09-06 00:40:47 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\13.har
+
+2024-09-06 00:40:47 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:47 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:47 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+2024-09-06 00:40:47 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2024-09-06 00:40:47 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "zion resident"): Verify element property value successfully
+
+2024-09-06 00:40:47 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API Reqres/Update" time="1.659" classname="Test Cases/API Reqres/Update" status="PASSED">
+         <system-out><![CDATA[2024-09-06 00:40:47 - [TEST_CASE][PASSED] - Test Cases/API Reqres/Update: Test Cases/API Reqres/Update
+
+2024-09-06 00:40:48 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("Object Repository/API Reqres/Update")): Send request successfully
+
+2024-09-06 00:40:49 - [MESSAGE][INFO] - HAR: C:\Users\USER\Katalon Studio\automate-katalon\Reports\20240906_004003\TS-APIReqres\20240906_004003\requests\main\14.har
+
+2024-09-06 00:40:49 - [MESSAGE][PASSED] - Send request successfully
+
+2024-09-06 00:40:49 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2024-09-06 00:40:49 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2024-09-06 00:40:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "job", "zion resident"): Verify element property value successfully
+
+2024-09-06 00:40:49 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2024-09-06 00:40:49 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", "morpheus"): Verify element property value successfully
+
+2024-09-06 00:40:49 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2024-09-06 00:40:10 - [TEST_SUITE][PASSED] - TS-APIReqres: Test Cases/API Reqres/Update]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
